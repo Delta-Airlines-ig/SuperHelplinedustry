@@ -1,0 +1,6 @@
+type: OreBlock
+variants: 1
+itemDrop: obamium
+playerUnmineable:true
+needsSurface:true
+oreDefault:true

@@ -1,0 +1,24 @@
+type: genericCrafter
+name: shitstainium to helplium converter
+craftTime: 25
+size: 2
+hasPower: false
+itemCapacity: 50
+hasLiquids: false
+consumes: {
+  items: {
+    items: [
+      shitstainium core/50
+    ]
+  }
+  power: 0
+}
+craftEffect: smokeCloud
+requirements: [
+  lead/10
+  copper/10
+  helplium/10
+
+]
+category: crafting
+outputItem: helplium/10

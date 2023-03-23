@@ -1,0 +1,6 @@
+type: OreBlock
+variants: 1
+itemDrop: shitstainium core
+playerUnmineable:true
+needsSurface:true
+oreDefault:true

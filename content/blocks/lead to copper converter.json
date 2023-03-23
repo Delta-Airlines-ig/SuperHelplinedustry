@@ -1,0 +1,23 @@
+type: genericCrafter
+name: lead to copper converter
+craftTime: 25
+size: 2
+hasPower: false
+hasLiquids: false
+consumes: {
+  items: {
+    items: [
+      lead/3
+    ]
+  }
+  power: 0
+}
+craftEffect: smokeCloud
+requirements: [
+  lead/10
+  copper/10
+  helplium/4
+
+]
+category: crafting
+outputItem: copper/7

@@ -1,6 +1,6 @@
 type: genericCrafter
-name: helplium compacter
-craftTime: 120
+name: helplium refiner
+craftTime: 60
 size: 3
 hasPower: true
 hasLiquids: false
@@ -8,16 +8,18 @@ itemCapacity: 1000
 consumes: {
   items: {
     items: [
-      helplium/1000
+      helplium/10
+      shitstainium/10
     ]
   }
-  power: 5
+  power: 3
 }
 craftEffect: smokeCloud
 requirements: [
   coal/50
   helplium/50
+  helplite/100
 
 ]
 category: crafting
-outputItem: helplium^2/1
+outputItem: refinedhelplium/5

@@ -1,0 +1,25 @@
+type: genericCrafter
+name: shitstainium forge
+craftTime: 60
+size: 2
+hasPower: true
+hasLiquids: false
+consumes: {
+  items: {
+    items: [
+       helplinedustry-shitstainium/10
+      coal/5
+    ]
+  }
+  power: 1
+}
+craftEffect: smokeCloud
+requirements: [
+  lead/100
+  copper/100
+   helplinedustry-helplium/140
+   helplinedustry-shitstainium/150
+
+]
+category: crafting
+outputItem: shitsteelium/5

@@ -1,0 +1,24 @@
+type: genericCrafter
+name: obamium upgrader
+craftTime: 120
+size: 2
+hasPower: true
+hasLiquids: false
+consumes: {
+  items: {
+    items: [
+       obamium/10
+    ]
+  }
+  power: 2
+}
+craftEffect: smokeCloud
+requirements: [
+  coal/1
+   helplinedustry-helplium/250
+  helplite/150
+  obamium/150
+
+]
+category: crafting
+outputItem: bidenium/1

@@ -16,7 +16,7 @@ rotateSpeed: 0
 range: 200
 targetAir: true
 ammoTypes: {
-	 helplinedustry-shitstainium_core: {
+	 "helplinedustry-shitstainium core": {
 		type:BasicBulletType
 		speed: 5
 		damage: 10

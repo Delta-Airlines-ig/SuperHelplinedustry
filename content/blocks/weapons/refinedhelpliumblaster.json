@@ -19,7 +19,7 @@ ammoTypes: {
 	 helplinedustry-helplium: {
 		type:BasicBulletType
 		speed: 25
-		damage: 25
+		damage: 0.5
 		shootEffect: shootSmall
 		collideTerrain:false
 		splashDamage:300

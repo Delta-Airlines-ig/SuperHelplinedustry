@@ -8,8 +8,8 @@ itemCapacity: 1000
 consumes: {
   items: {
     items: [
-      helplium/10
-      shitstainium/10
+       helplinedustry-helplium/10
+       helplinedustry-shitstainium/10
     ]
   }
   power: 3
@@ -17,7 +17,7 @@ consumes: {
 craftEffect: smokeCloud
 requirements: [
   coal/50
-  helplium/50
+   helplinedustry-helplium/50
   helplite/100
 
 ]

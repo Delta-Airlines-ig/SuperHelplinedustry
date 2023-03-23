@@ -12,7 +12,7 @@ placeEffect: bigShockwave
 destroySound: ddddd
 recoilAmount: 500
 shootCone: 50
-rotateSpeed: 0
+rotateSpeed: 1000
 range: 200
 targetAir: true
 ammoTypes: {

@@ -1,22 +1,22 @@
 type: ItemTurret
-name: helplium blaster
+name: helplite blaster
 targetGround: true
 outlines:false
-health: 750
+health: 700
 size: 1
-inaccuracy: 9
+inaccuracy: 25
 placeSound: meg
 placeEffect: spawnShockwave
 destroySound: ddddd
-reload: 0.5
-shots: 3
+reload: 10
+shots: 5
 recoilAmount: 100
 shootCone: 50
 rotateSpeed: 100
 range: 450
 targetAir: true
 ammoTypes: {
-	helplium: {
+	 helplinedustry-helplium: {
 		type:BasicBulletType
 		speed: 25
 		damage: 5
@@ -30,7 +30,8 @@ ammoTypes: {
 }
 requirements: [
   copper/50
-	helplium/20
+	 helplinedustry-helplium/20
 	coal/20
+	helplite/25
 ]
 category: turret

@@ -1,0 +1,42 @@
+type: ItemTurret
+name:bidenium blaster
+targetGround: true
+outlines:false
+health: 1200
+size: 2
+inaccuracy: 2
+placeSound: meg
+placeEffect: spawnShockwave
+destroySound: ddddd
+reload: 120
+shots: 5
+recoilAmount: 100
+shootCone: 50
+rotateSpeed: 100
+range: 450
+targetAir: true
+ammoTypes: {
+	 helplinedustry-obamium: {
+		type:LaserBoltBulletType
+		speed: 25
+		damage: 50
+		shootEffect: shootSmall
+		collideTerrain:false
+		splashDamage:300
+		lifetime:500
+		hitShake:3
+		pierce:true
+  height:50
+  width:25
+  ammoMultiplier:10
+	}
+}
+requirements: [
+  copper/50
+	 helplinedustry-helplium/50
+  obamium/100
+  bidenium/50
+	coal/20
+	helplite/25
+]
+category: turret

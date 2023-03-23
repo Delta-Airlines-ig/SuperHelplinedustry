@@ -1,6 +1,6 @@
 type: OreBlock
 variants: 1
-itemDrop: shitstainium core
+itemDrop: helplite
 playerUnmineable:true
 needsSurface:true
 oreDefault:true

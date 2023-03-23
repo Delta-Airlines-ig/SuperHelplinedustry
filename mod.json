@@ -1,8 +1,8 @@
-name: "helplinedustry"
-displayName: "helplinedustry"
-author: helpl
-description: "the game is now slightly easier but more complicated"
+name: "superhelplinedustry"
+displayName: "SuperHelplinedustry"
+author: Delta Airlines and maybe Helpl
+description: "the game is now slightly easier but more complicated but also easier but maybe more complicated but its easier but more complicated"
 version: "1.0"
 minGameVersion: "136"
-dependencies: []
+dependencies: [helplinedustry]
 hidden: false

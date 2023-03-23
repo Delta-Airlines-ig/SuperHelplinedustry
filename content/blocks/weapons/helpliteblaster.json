@@ -26,6 +26,8 @@ ammoTypes: {
 		lifetime:500
 		hitShake:3
 		pierce:true
+		impact:true
+		knockback:50
 	}
 }
 requirements: [

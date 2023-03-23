@@ -13,7 +13,7 @@ consumes: {
   }
   power: 1
 }
-craftEffect: smokeCloud
+craftEffect: greenCloud
 requirements: [
   lead/100
   copper/100

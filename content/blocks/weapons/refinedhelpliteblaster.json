@@ -16,7 +16,7 @@ rotateSpeed: 100
 range: 450
 targetAir: true
 ammoTypes: {
-	 helplinedustry-helplite: {
+	helplite: {
 		type:ContinuousBulletType
 		speed: 25
 		damage: 5

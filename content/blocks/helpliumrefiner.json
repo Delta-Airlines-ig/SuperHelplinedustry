@@ -9,7 +9,7 @@ consumes: {
   items: {
     items: [
        helplinedustry-helplium/10
-       helplinedustry-shitstainium/10
+       helplinedustry-shitstainium core/10
     ]
   }
   power: 3

@@ -5,7 +5,7 @@ outlines:false
 health: 1500
 size: 1
 inaccuracy: 360
-reload: 60
+reload: 10
 shots: 20
 placeSound: megslow
 placeEffect: bigShockwave

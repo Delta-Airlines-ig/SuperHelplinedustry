@@ -7,7 +7,7 @@ hasLiquids: false
 consumes: {
   items: {
     items: [
-       helplinedustry-shitstainium/10
+       helplinedustry-shitstanium core/10
       coal/5
     ]
   }
@@ -18,7 +18,7 @@ requirements: [
   lead/100
   copper/100
    helplinedustry-helplium/140
-   helplinedustry-shitstainium/150
+   helplinedustry-shitstanium core/150
 
 ]
 category: crafting

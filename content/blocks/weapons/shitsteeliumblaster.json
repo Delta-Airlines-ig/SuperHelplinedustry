@@ -14,6 +14,7 @@ recoilAmount: 500
 shootCone: 50
 rotateSpeed: 1000
 range: 200
+shootEffect:rand
 targetAir: true
 ammoTypes: {
 	 "helplinedustry-shitstainium core": {

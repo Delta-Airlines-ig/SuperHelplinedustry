@@ -1,5 +1,5 @@
 type: ItemTurret
-name:refined helplite blaster
+name:refined helplium blaster
 targetGround: true
 outlines:false
 health: 1000

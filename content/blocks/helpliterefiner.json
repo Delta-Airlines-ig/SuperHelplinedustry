@@ -1,21 +1,24 @@
 type: genericCrafter
-name: helplium formitizer
-craftTime: 120
+name: helpliterefiner
+craftTime: 60
 size: 3
 hasPower: true
 hasLiquids: false
 consumes: {
   items: {
     items: [
+       helplite/10
+      helplinedustry-shitstainium/10
     ]
   }
-  power: 2.5
+  power: 2
 }
 craftEffect: smokeCloud
 requirements: [
   coal/1
-  helplium/250
+   helplinedustry-helplium/250
+  helplite/150
 
 ]
 category: crafting
-outputItem: helplium/5
+outputItem: refinedhelplite/5

@@ -8,13 +8,14 @@ inaccuracy: 2
 placeSound: meg
 placeEffect: spawnShockwave
 destroySound: ddddd
-reload: 120
+reload: 90
 shots: 5
 recoilAmount: 100
 shootCone: 50
 rotateSpeed: 100
 range: 450
 targetAir: true
+shoot: ShootHelix
 ammoTypes: {
 	 obamium: {
 		type:LaserBoltBulletType
@@ -26,8 +27,8 @@ ammoTypes: {
 		lifetime:500
 		hitShake:3
 		pierce:true
-  height:50
-  width:25
+  height:25
+  width:5
   ammoMultiplier:10
 	}
 }

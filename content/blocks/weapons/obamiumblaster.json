@@ -16,7 +16,7 @@ rotateSpeed: 100
 range: 450
 targetAir: true
 ammoTypes: {
-	 helplinedustry-helplium: {
+	 obamium: {
 		type:BasicBulletType
 		speed: 1
 		damage: 30

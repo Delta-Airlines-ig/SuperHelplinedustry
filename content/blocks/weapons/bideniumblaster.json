@@ -20,7 +20,7 @@ ammoTypes: {
 		type:LaserBoltBulletType
 		speed: 25
 		damage: 50
-		shootEffect: shootSmall
+		shootEffect: smokeCloud
 		collideTerrain:false
 		splashDamage:300
 		lifetime:500

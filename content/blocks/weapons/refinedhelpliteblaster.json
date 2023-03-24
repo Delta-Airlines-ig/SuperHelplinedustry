@@ -17,7 +17,7 @@ range: 450
 targetAir: true
 ammoTypes: {
 	helplite: {
-		type:MissileBulletType
+		type:FlakBulletType
 		speed: 25
 		damage: 15
 		shootEffect: shootSmall
@@ -28,6 +28,8 @@ ammoTypes: {
 		sprite:"helplium blaster"
 		pierce:true
 		homingPower:0.05
+		impact:true
+		knockback:50
 	}
 }
 requirements: [

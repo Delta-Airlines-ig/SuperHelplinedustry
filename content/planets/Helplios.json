@@ -1,0 +1,60 @@
+generator: "PlanetGenerator"
+    parent: "sun"
+    iconColor: 158400
+    orbitRadius: 24
+    hasAtmosphere: true
+    updateLighting: false
+    atmosphereRadIn: 0.1
+    atmosphereRadOut: 0.3
+    atmosphereColor: 925115
+    drawOrbit: true
+    accessible: true
+    alwaysUnlocked: true
+    defaultCore: "shard"
+    sectorSeed: -1
+    startSector: 0
+    sectorSize: 0.1
+    clearSectorOnLose: true
+    allowSectorInvasion: true
+    radius: 10
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ],
+    mesh: {
+        type: "NoiseMesh",  //NoiseMesh NoiseMesh
+        seed: 5,
+        divisions: 5,       //3         3
+        radius: 0.9,        //0.12      0.8
+        planet: "Helplios",  
+        color1: "eeeeee",     
+        color2: "111111",     
+        colorOct: 4, 
+        colorPersistence: 0.5, //f 0.5
+        colorScale: 0.5, //f 1
+        colorThreshold: 0.5, //f 0.5
+        octaves: 4,         //1         4
+        persistence: 1,     //0.01      1
+        scale: 0.75,         
+        mag: 1.2,             
+    }

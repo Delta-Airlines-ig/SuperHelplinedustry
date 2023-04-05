@@ -10,7 +10,7 @@ generator: "PlanetGenerator"
     drawOrbit: true
     accessible: true
     alwaysUnlocked: true
-    defaultCore: "shard"
+    //defaultCore: "shard"
     sectorSeed: -1
     startSector: 0
     sectorSize: 0.1

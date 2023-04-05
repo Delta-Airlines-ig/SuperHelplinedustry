@@ -8,11 +8,7 @@ accel: 2
 rotateSpeed: 40
 loopSound:electricHum
 deathSound:titanExplosion
-deathExplosionEffect: ExplosionEffect: {
-	smokes:50
-	waveRad:50
-	
-}
+deathExplosionEffect:impactReactorExplosion
 engineSize:0
 mechStepParticle:true
 targetGround:true

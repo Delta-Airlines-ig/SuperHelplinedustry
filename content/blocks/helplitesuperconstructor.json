@@ -1,0 +1,29 @@
+type: UnitFactory
+name:helplite supercontstructor
+size: 6
+consumes: {
+  power: 2
+}
+plans: [
+  {
+    unit: Bidenios III of Doom
+    time: 1800
+    requirements: [
+      helplinedustry-helplium/250
+    bidenium/150
+    obamium/100
+    helplinedustry-puddite/60
+    helplite/250
+      coal/150
+    helplinedustry-shitstanium/150
+    ]
+  }
+ 
+]
+requirements: [
+  helplinedustry-puddite/360
+  helplinedustry-helplium/700
+  helplite/500
+  coal/250
+]
+category: units

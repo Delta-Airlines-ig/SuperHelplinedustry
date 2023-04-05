@@ -99,6 +99,11 @@ lightningAngleRand:360
 		 type:MultiEffect
 		 effects:[massiveExplosion, fire, bigShockwave, lancerLaserShoot]
 	 }
+
+		    hitEffect: {
+		 type:MultiEffect
+		 effects:[massiveExplosion, fire, bigShockwave, lancerLaserShoot]
+	 }
 	  speed: 10
 	  color: 4A4A4A
 	  lifetime: 70

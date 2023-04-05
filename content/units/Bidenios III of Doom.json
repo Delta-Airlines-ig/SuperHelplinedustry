@@ -28,7 +28,6 @@ abilities: [
 		type:RepairFieldAbility
 		amount:500
 		reload:600
-		healEffect:smokecloud
 		activeEffect:landShock
 	}
 	{

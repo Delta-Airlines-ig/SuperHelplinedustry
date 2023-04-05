@@ -90,12 +90,17 @@ lightningAngleRand:360
 	    trailEffect:smokeCloud
 	weaveScale:0.1
 	weaveMag:5
-	lightning:5
+	lightning:25
 	lightningDamage:5
 	trailInterval:2
 	trailChance:1
       damage: 1000
-		    despawnEffect:titanExplosion
+		    despawnEffect: {
+		 type:ExplosionEffect
+		 smokes:25
+		 sparks:20
+		 waveRad:50
+	 }
 	  speed: 10
 	  color: 4A4A4A
 	  lifetime: 70
@@ -124,6 +129,7 @@ lightningAngleRand:360
 
     bullet: {
       type: MissileBulletType
+		 	homingPower:0
 	damage: 25
 		 sprite:energyorb
 	  speed: 5

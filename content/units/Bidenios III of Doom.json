@@ -159,6 +159,7 @@ weapons: [
 	  name: death-explosion
     mirror:false
     alternate:false
+		 velocityRnd:20
     x: 0
     y: 0
     recoil: 3

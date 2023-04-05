@@ -76,8 +76,8 @@ weapons: [
 		//shoot = ShootSpread(2, 30, 2)
     bullet: {
       type: MissileBulletType
-	splashDamageRadius:25
-	splashDamage:50
+	splashDamageRadius:75
+	splashDamage:450
 	homingPower:0.1
 	    	    hitSound:explosionbig
 	    despawnSound:explosionbig
@@ -87,9 +87,9 @@ weapons: [
 	weaveMag:5
 	lightning:5
 	lightningDamage:5
-	trailInterval:1
+	trailInterval:2
 	trailChance:1
-      damage: 200
+      damage: 1000
 		    despawnEffect:titanExplosion
 	  speed: 10
 	  color: 4A4A4A
@@ -118,7 +118,7 @@ weapons: [
              //   };
 
     bullet: {
-      type: BasicBulletType
+      type: MissileBulletType
 	damage: 25
 		 sprite:energyorb
 	  speed: 5

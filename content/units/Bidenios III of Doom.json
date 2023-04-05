@@ -27,6 +27,21 @@ hitsize:50
 legCount:32
 legGroupSize:2
 legLength:50
+abilities: [
+	{
+		type:RepairFieldAbility
+		amount:500
+		reload:600
+		healEffect:smokecloud
+		activeEffect:landShock
+	}
+	{
+	type:UnitSpawnAbility
+	unit:crawler
+	spawnTime:120
+	spawnEffect:coreLandDust
+	}
+	]
 weapons: [
   {
 	  name: obliterator

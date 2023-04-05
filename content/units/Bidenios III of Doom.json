@@ -51,13 +51,17 @@ weapons: [
     bullet: {
       type: laserBulletType
 	  chargeEffect:smokeCloud
-      damage: 150
+	  colors:[fbff7a33, ffc34a66, ff883399, ff5e1fcc, ff0000ff]
+laserEffect: titanExplosion
+lightningSpacing:1
+largeHit:true
+      damage: 550
 	  speed: 5
 	  color: 4A4A4A
 	  lifetime: 10
 	  inaccuracy:3
 	  collideTerrain:true
-	  length: 500
+	  length: 1000
 	  width: 40
 	height: 40
     }
@@ -149,7 +153,7 @@ weapons: [
 
     bullet: {
       type: BasicBulletType
-	damage: 35
+	damage: 75
 	  speed: 25
 	  color: 4A4A4A
 	  lifetime: 70
@@ -194,6 +198,65 @@ weapons: [
 	  width: 0
 	height: 0
 	    despawnEffect:impactReactorExplosion
+    }
+  }
+	 {
+	  name: machinegun
+    mirror:true
+    alternate:true
+    x: -5
+    y: 0
+    recoil: 3
+	size: 1
+    reload: 2
+    shake: 1
+	firstshotDelay: 0
+	//shoot = ShootSpread(){
+          //          shots = 8;
+          //          shotDelay = 5f;
+          //          spread = 4f;
+          //      };
+
+    bullet: {
+      type: BasicBulletType
+	damage: 10
+	  speed: 25
+	  color: 4A4A4A
+	  lifetime: 70
+	  inaccuracy:3
+	  collideTerrain:false
+	  width: 5
+	height: 10
+    }
+  }
+	 {
+	  name: EMP-launcher
+    mirror:true
+    alternate:true
+    x: -5
+    y: 0
+    recoil: 3
+	size: 1
+    reload: 120
+    shake: 1
+	firstshotDelay: 0
+	//shoot = ShootSpread(){
+          //          shots = 8;
+          //          shotDelay = 5f;
+          //          spread = 4f;
+          //      };
+
+    bullet: {
+      type: EmpBulletType
+		 radius:250
+	damage: 100
+	  speed: 2
+	  color: 4A4A4A
+	  lifetime: 70
+	  inaccuracy:3
+	  collideTerrain:false
+	  width: 5
+	height: 10
     }
   }
   ]

@@ -96,12 +96,8 @@ lightningAngleRand:360
 	trailChance:1
       damage: 1000
 		    despawnEffect: {
-		 type:ExplosionEffect
-		 waveLife:30
-		 lifetime:120
-		 smokes:25
-		 sparks:20
-		 waveRad:50
+		 type:MultiEffect
+		 effects:[massiveExplosion, fire, bigShockwave, lancerLaserShoot]
 	 }
 	  speed: 10
 	  color: 4A4A4A

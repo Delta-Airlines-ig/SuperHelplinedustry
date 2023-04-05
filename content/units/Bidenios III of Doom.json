@@ -25,24 +25,79 @@ weapons: [
     mirror:true
     alternate:true
     
-    x: -15
+    x: -30
     y: 0
     recoil: 30
 	size: 1
-    reload: 120
+    reload: 60
     shake: 10
 	shotDelay: 0
     bullet: {
       type: laserBulletType
       damage: 150
-	  speed: 3
+	  speed: 5
 	  color: 4A4A4A
-	  lifetime: 100
+	  lifetime: 10
 	  inaccuracy:3
 	  collideTerrain:true
 	  length: 500
 	  width: 40
 	height: 40
+    }
+  }
+	 {
+	  name: pt2
+    mirror:true
+    alternate:true
+    x: -15
+    y: -15
+    recoil: 0
+	size: 1
+    reload: 30
+    shake: 10
+	shotDelay: 0
+    bullet: {
+      type: MissileBulletType
+	splashDamageRadius:25
+	splashDamage:50
+	homingPower:0.1
+	weaveScale:0.1
+	weaveMag:5
+	lightning:5
+	lightningDamage:5
+	trailInterval:1
+	trailChance:1
+      damage: 200
+	  speed: 10
+	  color: 4A4A4A
+	  lifetime: 70
+	  inaccuracy:3
+	  collideTerrain:false
+	  width: 5
+	height: 10
+    }
+  }
+	 {
+	  name: pt3
+    mirror:true
+    alternate:true
+    x: -10
+    y: 0
+    recoil: 0
+	size: 1
+    reload: 2.5
+    shake: 10
+	shotDelay: 0
+    bullet: {
+      type: BasicBulletType
+	damage: 25
+	  speed: 15
+	  color: 4A4A4A
+	  lifetime: 70
+	  inaccuracy:3
+	  collideTerrain:false
+	  width: 5
+	height: 10
     }
   }
   ]

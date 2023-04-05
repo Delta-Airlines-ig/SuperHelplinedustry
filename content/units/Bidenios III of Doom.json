@@ -82,7 +82,7 @@ weapons: [
 	    	    hitSound:explosionbig
 	    despawnSound:explosionbig
 	    trailColor:5e5e5e
-	    trailEffect:shootSmokeMissile
+	    trailEffect:smokeCloud
 	weaveScale:0.1
 	weaveMag:5
 	lightning:5
@@ -90,6 +90,7 @@ weapons: [
 	trailInterval:1
 	trailChance:1
       damage: 200
+		    despawnEffect:titanExplosion
 	  speed: 10
 	  color: 4A4A4A
 	  lifetime: 70

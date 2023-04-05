@@ -119,7 +119,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
 	damage: 25
-		 sprite:"energyorb"
+		 sprite:energyorb
 	  speed: 5
 	  color: 4A4A4A
 	  lifetime: 70

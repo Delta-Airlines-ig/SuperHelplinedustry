@@ -51,7 +51,10 @@ weapons: [
       type: laserBulletType
 	  chargeEffect:smokeCloud
 	  colors:[fbff7a33, ffc34a66, ff883399, ff5e1fcc, ff0000ff]
-laserEffect: titanExplosion
+laserEffect: {
+	type:MultiEffect
+	effects: [titanExplosion, dynamicSpikes, scatheLight, scatheSlash, lancerLaserShoot, lancerLaserShootSmoke]
+}
 lightningSpacing:30
 largeHit:true
       damage: 550
@@ -100,12 +103,12 @@ lightningAngleRand:360
       damage: 1000
 		    despawnEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes]
+		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes, scatheExplosion, titanSmoke, dynamicExplosion]
 	 }
 
 		    hitEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes]
+		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes, scatheExplosion, titanSmoke, dynamicExplosion]
 	 }
 	  speed: 10
 	  color: 4A4A4A

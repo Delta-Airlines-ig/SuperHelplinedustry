@@ -87,7 +87,10 @@ lightningAngleRand:360
 	    	    hitSound:explosionbig
 	    despawnSound:explosionbig
 	    trailColor:5e5e5e
-	    trailEffect:smokeCloud
+	    trailEffect:{
+		  type:MultiEffect
+		 effects:[smokeCloud, dynamicSpikes]
+	 }
 	weaveScale:0.1
 	weaveMag:5
 	lightning:25
@@ -97,12 +100,12 @@ lightningAngleRand:360
       damage: 1000
 		    despawnEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, lancerLaserShoot]
+		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes]
 	 }
 
 		    hitEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, lancerLaserShoot]
+		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes]
 	 }
 	  speed: 10
 	  color: 4A4A4A

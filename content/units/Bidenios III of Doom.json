@@ -1,23 +1,31 @@
 type:legs
 name:Bidenios III of Doom
-health: 3650
+health: 10000
 armor:500
 speed: 1
 drag: 3
 accel: 2
 rotateSpeed: 40
+loopSound:electricHum
+deathSound:titanExplosion
+deathExplosionEffect: ExplosionEffect: {
+	smokes:50
+	waveRad:50
+	
+}
 engineSize:0
+mechStepParticle:true
 targetGround:true
 targetAir:true
 drawCell:false
 circleTarget:true
 forceMultiTarget:true
 outlines:false
-legLength:100
+legLength:150
 size:6
 hitsize:50
 legCount:32
-legGroupSize:1
+legGroupSize:2
 legLength:50
 weapons: [
   {
@@ -31,7 +39,7 @@ weapons: [
 	size: 1
     reload: 60
     shake: 10
-	shotDelay: 60
+	firstshotDelay: 60
 	  chargeSound:lasercharge
     bullet: {
       type: laserBulletType
@@ -57,7 +65,7 @@ weapons: [
 	size: 1
     reload: 90
     shake: 10
-	shotDelay: 0
+	firstshotDelay: 0
 		shoot = ShootSpread(){{
                     shots = 2;
                     shotDelay = 30f;
@@ -68,6 +76,8 @@ weapons: [
 	splashDamageRadius:25
 	splashDamage:50
 	homingPower:0.1
+	    	    hitSound:explosionbig
+	    despawnSound:explosionbig
 	    trailColor:5e5e5e
 	    trailEffect:shootSmokeMissile
 	weaveScale:0.1
@@ -96,7 +106,7 @@ weapons: [
 	size: 1
     reload: 90
     shake: 1
-	shotDelay: 0
+	firstshotDelay: 0
 	shoot = ShootSpread(){{
                     shots = 6;
                     shotDelay = 10f;
@@ -126,7 +136,7 @@ weapons: [
 	size: 1
     reload: 160
     shake: 1
-	shotDelay: 0
+	firstshotDelay: 0
 	shoot = ShootSpread(){{
                     shots = 8;
                     shotDelay = 5f;
@@ -169,6 +179,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
 	damage: 0
+	    hitSound:explosionbig
+	    despawnSound:explosionbig
 	  speed: 25
 	  color: 4A4A4A
 	  lifetime: 2

@@ -16,9 +16,9 @@ outlines:false
 legLength:100
 size:6
 hitsize:50
-legCount:16
+legCount:32
 legGroupSize:1
-legLength:25
+legLength:50
 weapons: [
   {
 	  name: obliterator
@@ -31,9 +31,11 @@ weapons: [
 	size: 1
     reload: 60
     shake: 10
-	shotDelay: 0
+	shotDelay: 60
+	  chargeSound:lasercharge
     bullet: {
       type: laserBulletType
+	  chargeEffect:smokecloud
       damage: 150
 	  speed: 5
 	  color: 4A4A4A
@@ -53,14 +55,21 @@ weapons: [
     y: -15
     recoil: 0
 	size: 1
-    reload: 30
+    reload: 90
     shake: 10
 	shotDelay: 0
+		shoot = ShootSpread(){{
+                    shots = 2;
+                    shotDelay = 30f;
+                    spread = 2f;
+                }};
     bullet: {
       type: MissileBulletType
 	splashDamageRadius:25
 	splashDamage:50
 	homingPower:0.1
+	    trailColor:5e5e5e
+	    trailEffect:shootSmokeMissile
 	weaveScale:0.1
 	weaveMag:5
 	lightning:5
@@ -85,14 +94,49 @@ weapons: [
     y: 0
     recoil: 0
 	size: 1
-    reload: 2.5
-    shake: 10
+    reload: 90
+    shake: 1
 	shotDelay: 0
+	shoot = ShootSpread(){{
+                    shots = 6;
+                    shotDelay = 10f;
+                    spread = 2f;
+                }};
+
     bullet: {
       type: BasicBulletType
 	damage: 25
 		 sprite:"energyorb"
-	  speed: 15
+	  speed: 5
+	  color: 4A4A4A
+	  lifetime: 70
+	  inaccuracy:3
+	  collideTerrain:false
+	  width: 5
+	height: 5
+    }
+  }
+	 {
+	  name: mg
+    mirror:false
+    alternate:false
+    x: 0
+    y: 0
+    recoil: 3
+	size: 1
+    reload: 160
+    shake: 1
+	shotDelay: 0
+	shoot = ShootSpread(){{
+                    shots = 20;
+                    shotDelay = 5f;
+                    spread = 4f;
+                }};
+
+    bullet: {
+      type: BasicBulletType
+	damage: 35
+	  speed: 25
 	  color: 4A4A4A
 	  lifetime: 70
 	  inaccuracy:3

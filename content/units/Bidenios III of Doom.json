@@ -22,6 +22,10 @@ size:6
 hitsize:50
 legCount:32
 legGroupSize:2
+legSpeed:0.01
+legMaxLength:1
+legMinLength:1
+lockLegBase:true
 legLength:50
 abilities: [
 	{
@@ -29,12 +33,6 @@ abilities: [
 		amount:500
 		reload:600
 		activeEffect:landShock
-	}
-	{
-	type:UnitSpawnAbility
-	unit:crawler
-	spawnTime:120
-	spawnEffect:coreLandDust
 	}
 	]
 weapons: [
@@ -110,7 +108,7 @@ weapons: [
     y: 0
     recoil: 0
 	size: 1
-    reload: 90
+    reload: 10
     shake: 1
 	firstshotDelay: 0
 	//shoot = ShootSpread(){
@@ -140,7 +138,7 @@ weapons: [
     y: 0
     recoil: 3
 	size: 1
-    reload: 160
+    reload: 30
     shake: 1
 	firstshotDelay: 0
 	//shoot = ShootSpread(){

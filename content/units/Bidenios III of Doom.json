@@ -77,11 +77,11 @@ weapons: [
     reload: 90
     shake: 10
 	firstshotDelay: 0
-		shoot = ShootSpread(){{
+		shoot = ShootSpread(){
                     shots = 2;
                     shotDelay = 30f;
                     spread = 2f;
-                }};
+                };
     bullet: {
       type: MissileBulletType
 	splashDamageRadius:25
@@ -118,11 +118,11 @@ weapons: [
     reload: 90
     shake: 1
 	firstshotDelay: 0
-	shoot = ShootSpread(){{
+	shoot = ShootSpread(){
                     shots = 6;
                     shotDelay = 10f;
                     spread = 2f;
-                }};
+                };
 
     bullet: {
       type: BasicBulletType
@@ -148,11 +148,11 @@ weapons: [
     reload: 160
     shake: 1
 	firstshotDelay: 0
-	shoot = ShootSpread(){{
+	shoot = ShootSpread(){
                     shots = 8;
                     shotDelay = 5f;
                     spread = 4f;
-                }};
+                };
 
     bullet: {
       type: BasicBulletType
@@ -182,11 +182,11 @@ weapons: [
 		 controllable:false
     shake: 1
 	shotDelay: 0
-	shoot = ShootSpread(){{
+	shoot = ShootSpread(){
                     shots = 28;
                     shotDelay = 10f;
                     spread = 4f;
-                }};
+                };
 
     bullet: {
       type: BasicBulletType

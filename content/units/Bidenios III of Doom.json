@@ -23,7 +23,7 @@ legCount:32
 legGroupSize:2
 legSpeed:0.01
 legMaxLength:1
-legMinLength:1
+legMinLength:0.1
 lockLegBase:true
 legLength:100
 abilities: [

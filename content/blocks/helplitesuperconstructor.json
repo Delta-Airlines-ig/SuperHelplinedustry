@@ -1,5 +1,5 @@
 type: UnitFactory
-name:helplite supercontstructor
+name:helplite-bidenium supercontstructor
 size: 6
 consumes: {
   power: 2
@@ -16,6 +16,10 @@ plans: [
     helplite/250
       coal/150
     helplinedustry-shitstainium core/150
+    refinedhelplite/150
+    refinedhelplium/150
+    helplinedustry-helplium^2/2
+    shitsteelium/50
     ]
   }
  
@@ -23,6 +27,9 @@ plans: [
 requirements: [
   helplinedustry-puddite/360
   helplinedustry-helplium/700
+  refinedhelplite/300
+  refinedhelplium/250
+  bidenium/250
   helplite/500
   coal/250
 ]

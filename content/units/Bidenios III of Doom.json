@@ -20,8 +20,8 @@ outlines:false
 size:6
 hitsize:50
 legCount:32
-legGroupSize:2
-legSpeed:0.01
+legGroupSize:8
+legSpeed:0.1
 legMaxLength:1
 legMinLength:0.1
 lockLegBase:true
@@ -39,7 +39,6 @@ weapons: [
 	  name: obliterator
     mirror:true
     alternate:true
-    
     x: -30
     y: 0
     recoil: 30
@@ -53,7 +52,7 @@ weapons: [
 	  chargeEffect:smokeCloud
 	  colors:[fbff7a33, ffc34a66, ff883399, ff5e1fcc, ff0000ff]
 laserEffect: titanExplosion
-lightningSpacing:1
+lightningSpacing:30
 largeHit:true
       damage: 550
 	  speed: 5
@@ -62,6 +61,8 @@ largeHit:true
 	  inaccuracy:3
 	  collideTerrain:true
 	  length: 1000
+width:25
+lightningAngleRand:360
 	  width: 40
 	height: 40
     }
@@ -222,7 +223,7 @@ largeHit:true
 	damage: 10
 	  speed: 25
 	  color: 4A4A4A
-	  lifetime: 70
+	  lifetime: 45
 	  inaccuracy:3
 	  collideTerrain:false
 	  width: 5

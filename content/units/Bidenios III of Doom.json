@@ -1,0 +1,48 @@
+type:legs
+name:Bidenios III of Doom
+health: 3650
+armor:500
+speed: 1
+drag: 3
+accel: 2
+rotateSpeed: 40
+engineSize:0
+targetGround:true
+targetAir:true
+drawCell:false
+circleTarget:true
+forceMultiTarget:true
+outlines:false
+legLength:100
+size:6
+hitsize:50
+legCount:16
+legGroupSize:1
+legLength:25
+weapons: [
+  {
+	  name: obliterator
+    mirror:true
+    alternate:true
+    
+    x: -15
+    y: 0
+    recoil: 30
+	size: 1
+    reload: 120
+    shake: 10
+	shotDelay: 0
+    bullet: {
+      type: laserBulletType
+      damage: 150
+	  speed: 3
+	  color: 4A4A4A
+	  lifetime: 100
+	  inaccuracy:3
+	  collideTerrain:true
+	  length: 500
+	  width: 40
+	height: 40
+    }
+  }
+  ]

@@ -48,7 +48,7 @@ weapons: [
     }
   }
 	 {
-	  name: pt2
+	  name: rocket-launcher
     mirror:true
     alternate:true
     x: -15
@@ -87,7 +87,7 @@ weapons: [
     }
   }
 	 {
-	  name: pt3
+	  name: plasma-machinegun
     mirror:true
     alternate:true
     x: -10
@@ -117,7 +117,7 @@ weapons: [
     }
   }
 	 {
-	  name: mg
+	  name: slavo-heavy-cannon
     mirror:false
     alternate:false
     x: 0
@@ -128,7 +128,7 @@ weapons: [
     shake: 1
 	shotDelay: 0
 	shoot = ShootSpread(){{
-                    shots = 20;
+                    shots = 8;
                     shotDelay = 5f;
                     spread = 4f;
                 }};
@@ -143,6 +143,40 @@ weapons: [
 	  collideTerrain:false
 	  width: 5
 	height: 10
+    }
+  }
+	 {
+	  name: death-explosion
+    mirror:false
+    alternate:false
+    x: 0
+    y: 0
+    recoil: 3
+	size: 1
+    reload: 1
+	shootOnDeath:true
+		 noAttack:true
+		 aiControllable:false
+		 controllable:false
+    shake: 1
+	shotDelay: 0
+	shoot = ShootSpread(){{
+                    shots = 28;
+                    shotDelay = 10f;
+                    spread = 4f;
+                }};
+
+    bullet: {
+      type: BasicBulletType
+	damage: 0
+	  speed: 25
+	  color: 4A4A4A
+	  lifetime: 2
+	  inaccuracy:360
+	  collideTerrain:true
+	  width: 0
+	height: 0
+	    despawnEffect:impactReactorExplosion
     }
   }
   ]

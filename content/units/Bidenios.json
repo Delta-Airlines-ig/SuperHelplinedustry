@@ -343,4 +343,38 @@ lightningAngleRand:360
 	height: 10
     }
   }
+ {
+	  name: laser-mg
+    mirror:true
+    alternate:true
+	  predictTarget:false
+    x: -30
+    y: 0
+    recoil: 30
+	size: 1
+    reload: 1
+    shake: 10
+	firstshotDelay: 0
+	  chargeSound:lasercharge
+    bullet: {
+      type: laserBulletType
+	  chargeEffect:instBomb
+	  colors:[7afdff66, 40bfffff, 246dff]
+laserEffect: {
+	type:MultiEffect
+	effects: [landShock, lancerLaserShootSmoke, lightningShoot, sparkShoot, thoriumShoot]
+}
+lightningSpacing:30
+largeHit:true
+      damage: 5
+	  speed: 1
+	  color: 4A4A4A
+	  lifetime: 10
+	  inaccuracy:1
+	  collideTerrain:true
+	  length: 250
+lightningAngleRand:360
+	  width: 10
+    }
+  }
   ]

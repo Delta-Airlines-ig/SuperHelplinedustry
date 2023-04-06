@@ -28,7 +28,7 @@ legMaxLength:1
 legMinLength:0.1
 lockLegBase:true
 legLength:100
-legBaseOffset:50
+legBaseOffset:25
 legContinuousMove:true
 abilities: [
 	{
@@ -43,6 +43,7 @@ weapons: [
 	  name: obliterator
     mirror:true
     alternate:true
+	  predictTarget:false
     x: -30
     y: 0
     recoil: 30

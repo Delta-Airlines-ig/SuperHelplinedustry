@@ -46,6 +46,12 @@ weapons: [
 	  predictTarget:false
     x: -30
     y: 0
+	          shoot: {
+ type: shootPattern
+  shots: 2
+  shotDelay: 15
+spread: 2
+   }
     recoil: 30
 	size: 1
     reload: 60
@@ -85,9 +91,15 @@ lightningAngleRand:360
 		 effects:[shootBigColor, shootBigSmoke, shootBig, sparkShoot, railTrail]
 	 }
 	size: 1
-    reload: 90
+    reload: 120
     shake: 10
 	firstshotDelay: 0
+        shoot: {
+ type: shootPattern
+  shots: 2
+  shotDelay: 15
+spread: 2
+   }
 		//shoot = ShootSpread(2, 30, 2)
     bullet: {
       type: MissileBulletType

@@ -353,7 +353,7 @@ lightningAngleRand:360
     recoil: 30
 	size: 1
     reload: 1
-    shake: 10
+    shake: 1
 	firstshotDelay: 0
 	  chargeSound:lasercharge
     bullet: {

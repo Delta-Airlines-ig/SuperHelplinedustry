@@ -94,7 +94,7 @@ lightningAngleRand:360
 	    trailColor:5e5e5e
 	    trailEffect:{
 		  type:MultiEffect
-		 effects:[smokeCloud, scatheLight, instBomb]
+		 effects:[smokeCloud, scatheLight]
 	 }
 	weaveScale:0.1
 	weaveMag:5

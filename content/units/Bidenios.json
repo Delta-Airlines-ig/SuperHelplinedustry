@@ -95,7 +95,7 @@ lightningAngleRand:360
     shake: 10
 	firstshotDelay: 0
         shoot: {
- type: shootPattern
+ type: shootHelix
   shots: 2
   shotDelay: 15
 spread: 2

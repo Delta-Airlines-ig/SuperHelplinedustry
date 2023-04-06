@@ -58,7 +58,7 @@ laserEffect: {
 lightningSpacing:30
 largeHit:true
       damage: 550
-	  speed: 5
+	  speed: 1
 	  color: 4A4A4A
 	  lifetime: 10
 	  inaccuracy:3
@@ -103,12 +103,12 @@ lightningAngleRand:360
       damage: 1000
 		    despawnEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes, scatheExplosion, titanSmoke, dynamicExplosion]
+		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes, scatheExplosion, titanSmoke]
 	 }
 
 		    hitEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes, scatheExplosion, titanSmoke, dynamicExplosion]
+		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes, scatheExplosion, titanSmoke]
 	 }
 	  speed: 10
 	  color: 4A4A4A

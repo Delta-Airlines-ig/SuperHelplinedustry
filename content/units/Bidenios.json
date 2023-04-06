@@ -6,7 +6,8 @@ armor:500
 speed: 0.75
 drag: 1
 accel: 0.25
-rotateSpeed: 40
+baseRotateSpeed:5
+rotateSpeed: 5
 loopSound:electricHum
 deathSound:titanExplosion
 deathExplosionEffect:impactReactorExplosion

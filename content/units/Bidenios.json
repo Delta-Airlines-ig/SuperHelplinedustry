@@ -364,7 +364,7 @@ laserEffect: {
 	type:MultiEffect
 	effects: [landShock, lancerLaserShootSmoke, lightningShoot, sparkShoot, thoriumShoot]
 }
-lightningSpacing:30
+lightningSpacing:5
 largeHit:true
       damage: 5
 	  speed: 1

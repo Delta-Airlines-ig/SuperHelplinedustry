@@ -49,11 +49,11 @@ weapons: [
 	  chargeSound:lasercharge
     bullet: {
       type: laserBulletType
-	  chargeEffect:smokeCloud
-	  colors:[fbff7a33, ffc34a66, ff883399, ff5e1fcc, ff0000ff]
+	  chargeEffect:instBomb
+	  colors:[7afdff66, 40bfffff, 246dff
 laserEffect: {
 	type:MultiEffect
-	effects: [titanExplosion, dynamicSpikes, scatheLight, scatheSlash, lancerLaserShoot, lancerLaserShootSmoke]
+	effects: [titanExplosion, scatheExplosion, instHit, instShoot, scatheLight, scatheSlash, lancerLaserShoot, lancerLaserShootSmoke, instBomb, padlaunch]
 }
 lightningSpacing:30
 largeHit:true
@@ -61,13 +61,11 @@ largeHit:true
 	  speed: 1
 	  color: 4A4A4A
 	  lifetime: 10
-	  inaccuracy:3
+	  inaccuracy:1
 	  collideTerrain:true
 	  length: 1000
-width:25
 lightningAngleRand:360
 	  width: 40
-	height: 40
     }
   }
 	 {
@@ -77,6 +75,10 @@ lightningAngleRand:360
     x: -15
     y: -15
     recoil: 0
+		 		 shootEffect:{
+		 type:MultiEffect
+		 effects:[shootBigColor, shootBigSmoke, shootBig, sparkShoot, railTrail]
+	 }
 	size: 1
     reload: 90
     shake: 10
@@ -92,7 +94,7 @@ lightningAngleRand:360
 	    trailColor:5e5e5e
 	    trailEffect:{
 		  type:MultiEffect
-		 effects:[smokeCloud, dynamicSpikes]
+		 effects:[smokeCloud, scatheLight, instTrail]
 	 }
 	weaveScale:0.1
 	weaveMag:5
@@ -103,12 +105,12 @@ lightningAngleRand:360
       damage: 1000
 		    despawnEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes, scatheExplosion, titanSmoke]
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb]
 	 }
 
 		    hitEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, dynamicSpikes, scatheExplosion, titanSmoke]
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb]
 	 }
 	  speed: 10
 	  color: 4A4A4A
@@ -141,6 +143,10 @@ lightningAngleRand:360
 		 	homingPower:0
 	damage: 25
 		 sprite:energyorb
+		  hitEffect: {
+		 type:MultiEffect
+		 effects:[hitBeam, lancerLaserCharge, hitBulletColor]
+	 }
 	  speed: 5
 	  color: 4A4A4A
 	  lifetime: 70
@@ -157,6 +163,10 @@ lightningAngleRand:360
     x: 0
     y: 0
     recoil: 3
+		 shootEffect:{
+		 type:MultiEffect
+		 effects:[shootBigColor, shootBigSmoke, shootBig, sparkShoot]
+	 }
 	size: 1
     reload: 30
     shake: 1

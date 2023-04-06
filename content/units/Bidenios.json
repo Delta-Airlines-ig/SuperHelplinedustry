@@ -27,7 +27,9 @@ legSpeed:0.1
 legMaxLength:1
 legMinLength:0.1
 lockLegBase:true
-legLength:200
+legLength:100
+legBaseOffset:50
+legContinuousMove:true
 abilities: [
 	{
 		type:RepairFieldAbility

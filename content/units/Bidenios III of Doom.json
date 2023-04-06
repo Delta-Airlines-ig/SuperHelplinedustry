@@ -145,7 +145,7 @@ lightningAngleRand:360
 		 sprite:energyorb
 		  hitEffect: {
 		 type:MultiEffect
-		 effects:[hitBeam, lancerLaserCharge, hitBulletColor, regenSupressParticle]
+		 effects:[hitBeam, lancerLaserCharge, hitBulletColor, regenSuppressParticle]
 	 }
 	  speed: 5
 	  color: 4A4A4A

@@ -50,7 +50,7 @@ weapons: [
     bullet: {
       type: laserBulletType
 	  chargeEffect:instBomb
-	  colors:[7afdff66, 40bfffff, 246dff
+	  colors:[7afdff66, 40bfffff, 246dff]
 laserEffect: {
 	type:MultiEffect
 	effects: [titanExplosion, scatheExplosion, instHit, instShoot, scatheLight, scatheSlash, lancerLaserShoot, lancerLaserShootSmoke, instBomb, padlaunch]

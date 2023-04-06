@@ -94,7 +94,7 @@ lightningAngleRand:360
 	    trailColor:5e5e5e
 	    trailEffect:{
 		  type:MultiEffect
-		 effects:[smokeCloud, scatheLight, instTrail]
+		 effects:[smokeCloud, scatheLight, instBomb]
 	 }
 	weaveScale:0.1
 	weaveMag:5
@@ -105,12 +105,12 @@ lightningAngleRand:360
       damage: 1000
 		    despawnEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb]
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb, launchPod]
 	 }
 
 		    hitEffect: {
 		 type:MultiEffect
-		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb]
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb, launchPod]
 	 }
 	  speed: 10
 	  color: 4A4A4A
@@ -145,7 +145,7 @@ lightningAngleRand:360
 		 sprite:energyorb
 		  hitEffect: {
 		 type:MultiEffect
-		 effects:[hitBeam, lancerLaserCharge, hitBulletColor]
+		 effects:[hitBeam, lancerLaserCharge, hitBulletColor, regenSupressParticle]
 	 }
 	  speed: 5
 	  color: 4A4A4A
@@ -277,6 +277,59 @@ lightningAngleRand:360
 		 radius:250
 	damage: 100
 	  speed: 2
+	  color: 4A4A4A
+	  lifetime: 70
+	  inaccuracy:3
+	  collideTerrain:false
+	  width: 5
+	height: 10
+    }
+  }
+	 {
+	  name: missile-launcher
+    mirror:false
+    alternate:false
+    x: 0
+    y: -15
+    recoil: 2
+		 		 shootEffect:{
+		 type:MultiEffect
+		 effects:[shootBigColor, shootBigSmoke, shootBig, sparkShoot, railTrail, ShootSmokeMissile]
+	 }
+	size: 1
+    reload: 1800
+    shake: 10
+	firstshotDelay: 0
+		//shoot = ShootSpread(2, 30, 2)
+    bullet: {
+      type: MissileBulletType
+	splashDamageRadius:475
+	splashDamage:2450
+	homingPower:0.1
+	    	    hitSound:explosionbig
+	    despawnSound:explosionbig
+	    trailColor:5e5e5e
+	    trailEffect:{
+		  type:MultiEffect
+		 effects:[shootSmokeMissile, scatheLight, instBomb, ballfire]
+	 }
+	weaveScale:0.1
+	weaveMag:5
+	lightning:25
+	lightningDamage:5
+	trailInterval:2
+	trailChance:1
+      damage: 4000
+		    despawnEffect: {
+		 type:MultiEffect
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb, reactorExplosion]
+	 }
+
+		    hitEffect: {
+		 type:MultiEffect
+		 effects:[massiveExplosion, fire, bigShockwave, scatheLight, scatheSlash, scatheExplosion, titanSmoke, instBomb, reactorExplosion]
+	 }
+	  speed: 10
 	  color: 4A4A4A
 	  lifetime: 70
 	  inaccuracy:3

@@ -257,7 +257,7 @@ shootSound:heavycannon
     y: 0
     recoil: 3
 	size: 1
-    reload: 2
+    reload: 1
     shake: 1
 	firstshotDelay: 0
 	//shoot = ShootSpread(){
@@ -268,7 +268,7 @@ shootSound:heavycannon
 
     bullet: {
       type: BasicBulletType
-	damage: 10
+	damage: 15
 	  speed: 25
 	  color: 4A4A4A
 	  lifetime: 45

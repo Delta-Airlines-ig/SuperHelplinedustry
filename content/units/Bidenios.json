@@ -238,6 +238,8 @@ shootSound:heavycannon
 	    despawnSound:explosionbig
 	  speed: 25
 	  color: 4A4A4A
+		 	splashDamageRadius:300
+	splashDamage:1000
 	  lifetime: 2
 	  inaccuracy:360
 	  collideTerrain:true
@@ -250,6 +252,7 @@ shootSound:heavycannon
 	  name: machinegun
     mirror:true
     alternate:true
+		 rotate:true
     x: -5
     y: 0
     recoil: 3
